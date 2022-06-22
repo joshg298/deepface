@@ -14,7 +14,7 @@ from deepface.extendedmodels import Age
 from deepface.commons import functions, realtime, distance as dst
 from deepface.detectors import FaceDetector
 
-def analysis(db_path, model_name = 'VGG-Face', detector_backend = 'opencv', distance_metric = 'cosine', enable_face_analysis = True, source = 0, time_threshold = 5, frame_threshold = 5):
+def analysis(db_path, model_name = 'VGG-Face', detector_backend = 'opencv', distance_metric = 'cosine', enable_face_analysis = True, source = 0, time_threshold = 1, frame_threshold = 1):
 
 	#------------------------
 
